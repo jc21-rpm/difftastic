@@ -1,0 +1,7 @@
+{
+  "publish": {
+    "PACKAGE": "difftastic",
+    "GH_USER": "jc21-rpm",
+    "VERSION": "0.56.1"
+  }
+}

@@ -1,0 +1,9 @@
+.idea
+._*
+.DS_Store
+RPMS
+SRPMS
+DEPS
+SOURCES/*
+BUILD
+BUILDROOT
