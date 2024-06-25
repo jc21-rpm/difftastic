@@ -1,8 +1,8 @@
 %global debug_package %{nil}
 
 Name:           difftastic
-Version:        0.56.1
-Release:        1
+Version:        0.58.0
+Release:        1%{?dist}
 Summary:        a structural diff that understands syntax
 Group:          Applications/System
 License:        MIT
@@ -36,5 +36,8 @@ rm -rf %{buildroot}
 /usr/bin/difft
 
 %changelog
+* Tue Jun 25 2024 Jamie Curnow <jc@jc21.com> - 0.58.0-1
+- v0.58.0
+
 * Fri Mar 22 2024 Jamie Curnow <jc@jc21.com> - 0.56.1-1
 - v0.56.1
