@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           difftastic
-Version:        0.69.0
+Version:        0.70.0
 Release:        1%{?dist}
 Summary:        a structural diff that understands syntax
 Group:          Applications/System
@@ -36,6 +36,9 @@ rm -rf %{buildroot}
 /usr/bin/difft
 
 %changelog
+* Sat Aug 8 2026 Jamie Curnow <jc@jc21.com> - 0.70.0-1
+- v0.70.0
+
 * Fri May 1 2026 Jamie Curnow <jc@jc21.com> - 0.69.0-1
 - v0.69.0
 
